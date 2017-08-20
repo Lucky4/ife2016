@@ -110,11 +110,8 @@ article table tfoot {
 aside {
 	background-color: #fff;
 	margin: 20px 40px 20px 20px;
-<<<<<<< HEAD
 	border: 1px solid none;
-=======
   border: 1px solid none;
->>>>>>> refs/remotes/origin/master
 	box-shadow: 2px 2px 2px black;
 	padding: 30px 20px;
 }
@@ -157,13 +154,10 @@ aside {
 .warning {
 	width: 100%;
 	margin: 15px 41.5%;
-<<<<<<< HEAD
 	color: #aaa;
 	font-size: 14px;
-=======
   color: #aaa;
   font-size: 14px;
->>>>>>> refs/remotes/origin/master
 }
 
 .submit {
