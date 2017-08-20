@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	border: 0;
+}
+
+.container {
+	border: 1px solid #999;
+	margin: 20px;
+	padding: 20px;
+	overflow: auto;
+}
+
+.left {
+	width: 200px;
+	border: 1px solid #999;
+	padding: 20px 20px;
+	float: left;
+	margin-right: 20px;
+}
+
+.left img {
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+.team {
+	float: left;
+	margin-left: 5px;
+}
+
+.right {
+	width: 120px;
+	border: 1px solid #999;
+	float: right;
+	margin-left: 20px;
+	padding: 10px 0;
+}
+
+.right img {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #999;
+	margin: 10px 20px;
+}
+
+.center {
+	border: 1px solid #999;
+	padding: 20px 20px;
+	margin: 0 20px;
+	overflow: hidden;
+}
