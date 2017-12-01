@@ -1,0 +1,197 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	position: relative;
+	background-color: #C8C8C8;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	height: 60px;
+	background-color: #282828;
+	top: 0;
+	left: 0;
+}
+
+header > h1 {
+	position: absolute;
+	display: inline-block;
+	top: 20%;
+	left: 3%;
+}
+
+header > nav {
+	position: absolute;
+	display: inline-block;
+	top: 30%;
+	right: 2%;
+}
+
+header nav li {
+	float: left;
+	list-style-type: disc;
+	width: 70px;
+	margin-left: 10px;
+}/*如果这里是header > nav > li 那么不会起作用(是我使用的有问题，应该是header > nav > ul > li)*/
+
+header nav li a {
+	text-decoration: none;
+	font-size: 8px;
+	font-weight: bolder;
+	color: #fff;
+}
+
+header nav li:first-child a {
+	color: #C8C8C8;
+}
+
+aside {
+	width: 350px;
+	background-color: #fff;
+	border: 1px solid none;
+	box-shadow: 2px 2px 1px 1px #707070;
+	padding: 30px 20px;
+	margin: 20px 20px;
+	float: right;
+}
+
+article {
+	background-color: #fff;
+	margin: 20px 430px 20px 20px;
+	border: 1px solid none;
+	padding: 30px 20px;
+	border-top-left-radius: 0px;
+	box-shadow: 2px 2px 1px 1px #707070;
+}/*这里如果使用overflow，那么只有第一个article是能够自适应宽度的，而其他的article是不能自适应宽度的*/
+
+article h2 {
+	margin: 10px 0;
+}
+
+article h3 {
+	margin: 8px 0;
+	color: #707070;
+}
+
+article span {
+	margin: 2px 0;
+	font-size: 1px;
+	font-weight: bold;
+	color: #707070
+}
+
+article p {
+	line-height: 1.8em;
+	text-indent: 2em;
+}
+
+article li.common {
+	list-style: none;
+	display: inline;
+	margin: 15px 15px;
+}
+
+article ol.sort-list {
+	list-style: decimal;
+	margin-left: 50px;
+}
+
+article table {
+	width: 100%;
+	font-size: 14px;
+	text-align: left;
+	vertical-align: middle;
+	border: 1px solid #A8A8A8;
+}
+
+article table thead {
+	background-color: #282828;
+	color: #FFFFFF;
+}
+
+article table th, td {
+	border: 1px solid #A8A8A8;
+	padding: 4px 4px;
+}
+
+article table tfoot {
+	background-color: #A8A8A8;
+}
+
+article img {
+  height:80px;
+  width: 80px;
+}
+
+.imgGallery {
+  height:120px;
+  width: 140px;
+  border: 1px solid #aaa;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+  display: inline-block;
+}/*图片这里也是个难点*/
+
+.aside-title {
+	border-left: 5px solid #909090;
+	padding: 8px;
+	letter-spacing: 1px;
+}
+
+.left {
+	display: inline-block;
+	width: 40%;
+	text-align: right;
+	vertical-align: top;
+}
+
+.right {
+	margin-left: 10px;
+}
+
+.text {
+	margin-left: 10px;
+	width: 50%;
+	text-align: left;
+}
+
+.form-item {
+	width: 100%;
+	margin: 15px 0px;
+}
+
+.warning {
+	width: 100%;
+	margin: 15px 45%;
+	color: #aaa;
+	font-size: 14px;
+  color: #aaa;
+}
+
+.submit {
+  width: 100%;
+  height: 40px;
+  background: #3355D0;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  border:1px solid #3355D0;
+  font-weight: 800;
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #282828;
+	text-align: center;
+	vertical-align: middle;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 60px;/*这里需要注意一下，当让一个元素垂直居中的时候，line-heigt这句非常好用.可以总结下垂直居中的几种方式*/
+	color: #fff;
+}
